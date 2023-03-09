@@ -7,7 +7,7 @@ const Search = ({ onSearchChange }) => {
 
     const handleOnChange = (searchData) => {
         setSearch(searchData);
-        onSearchChange(searchData)
+        onSearchChange(searchData);
     }
 
     const loadOptions = (inputValue) => {
