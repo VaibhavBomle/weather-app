@@ -7,9 +7,9 @@ import {
 } from "react-accessible-accordion";
 import './forecast.css';
 
-const WEEK_DAYS = [`Monday`, `Tuesday`, `Wednesday`, `Thursday`, `Friday`, `Saturday`, `Sunday`];
 const forecast = ({ data }) => {
-
+    const WEEK_DAYS = [`Monday`, `Tuesday`, `Wednesday`, `Thursday`, `Friday`, `Saturday`, `Sunday`];
+   console.log("=forecast=")
     const dayInWeek = new Date().getDay();
     console.log("dayInWeek :", dayInWeek)
     const forecastDays = WEEK_DAYS.splice(dayInWeek, WEEK_DAYS.length).concat(WEEK_DAYS.slice(0, dayInWeek));
