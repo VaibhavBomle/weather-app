@@ -70,3 +70,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
+
+
+
+OpenWeatherMap :
+API Key : 06a6a7ca764048a63102bfac2a699fb7
+
+Rapid API Geo Db Cities :
+API Key : 7a0b47c024msh190ae9c27455e27p100466jsna71eba59e502
+
+
+https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+
+api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
